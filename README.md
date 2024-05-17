@@ -1,6 +1,6 @@
-# 小肥记事本 :link: https://Carlyuanss.github.io 
-### :page_facing_up: [4](https://Carlyuanss.github.io/tag.html) 
+# 小肥记事本 :link: http://blog.fattyfatty.cn 
+### :page_facing_up: [4](http://blog.fattyfatty.cn/tag.html) 
 ### :speech_balloon: 0 
 ### :hibiscus: 329 
-### :alarm_clock: 2024-05-17 11:37:43 
+### :alarm_clock: 2024-05-17 13:12:00 
 ### Powered by :heart: [Gmeek](https://github.com/Meekdai/Gmeek)
