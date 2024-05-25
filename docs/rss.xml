@@ -1,5 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小肥记事本</title><link>http://blog.fattyfatty.cn</link><description>※专门写一些有的没的~※</description><copyright>小肥记事本</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/169888457</url><title>avatar</title><link>http://blog.fattyfatty.cn</link></image><lastBuildDate>Thu, 23 May 2024 06:16:03 +0000</lastBuildDate><managingEditor>小肥记事本</managingEditor><ttl>60</ttl><webMaster>小肥记事本</webMaster><item><title>vscode使用正则表达式替换删除超链接</title><link>http://blog.fattyfatty.cn/post/vscode-shi-yong-zheng-ze-biao-da-shi-ti-huan-shan-chu-chao-lian-jie.html</link><description>在VSCode中编写Markdown时，您可以使用正则表达式来批量删除超链接但保留文本。</description><guid isPermaLink="true">http://blog.fattyfatty.cn/post/vscode-shi-yong-zheng-ze-biao-da-shi-ti-huan-shan-chu-chao-lian-jie.html</guid><pubDate>Wed, 22 May 2024 16:31:54 +0000</pubDate></item><item><title>给Gmeek博客添加右上角按钮和超链接</title><link>http://blog.fattyfatty.cn/post/gei-Gmeek-bo-ke-tian-jia-you-shang-jiao-an-niu-he-chao-lian-jie.html</link><description>1. 找一个喜欢的svg：[点这里](https://primer.style/foundations/icons#16px)&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小肥记事本</title><link>http://blog.fattyfatty.cn</link><description>※专门写一些有的没的~※</description><copyright>小肥记事本</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/169888457</url><title>avatar</title><link>http://blog.fattyfatty.cn</link></image><lastBuildDate>Sat, 25 May 2024 07:45:57 +0000</lastBuildDate><managingEditor>小肥记事本</managingEditor><ttl>60</ttl><webMaster>小肥记事本</webMaster><item><title>让bing写了适配Gmeek的星星特效js</title><link>http://blog.fattyfatty.cn/post/rang-bing-xie-le-shi-pei-Gmeek-de-xing-xing-te-xiao-js.html</link><description>最近迷上了Gmeek的博客，试着自己搭建了一个，后来想插入一些js鼠标特效；  &#13;
+例如星星跟随鼠标的特效，就出现了星星偏移的情况；  &#13;
+后来让bing修改了一下，添加了注释，形成了现在的[代码](https://github.com/Carlyuanss/js_for_Blog)；  &#13;
+后续也许会对别的特效感兴趣~  &#13;
+  &#13;
+## 使用方法：&#13;
+参考Gmeek的[快速上手指南](https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html)  &#13;
+&#13;
+## 感谢：&#13;
+*我也不知道这个星星js的原作者是谁，先感谢他~  &#13;
+感谢Gmeek的作者：[Meekdai](https://github.com/Meekdai/Gmeek)  &#13;
+。</description><guid isPermaLink="true">http://blog.fattyfatty.cn/post/rang-bing-xie-le-shi-pei-Gmeek-de-xing-xing-te-xiao-js.html</guid><pubDate>Sat, 25 May 2024 07:45:28 +0000</pubDate></item><item><title>vscode使用正则表达式替换删除超链接</title><link>http://blog.fattyfatty.cn/post/vscode-shi-yong-zheng-ze-biao-da-shi-ti-huan-shan-chu-chao-lian-jie.html</link><description>在VSCode中编写Markdown时，您可以使用正则表达式来批量删除超链接但保留文本。</description><guid isPermaLink="true">http://blog.fattyfatty.cn/post/vscode-shi-yong-zheng-ze-biao-da-shi-ti-huan-shan-chu-chao-lian-jie.html</guid><pubDate>Wed, 22 May 2024 16:31:54 +0000</pubDate></item><item><title>给Gmeek博客添加右上角按钮和超链接</title><link>http://blog.fattyfatty.cn/post/gei-Gmeek-bo-ke-tian-jia-you-shang-jiao-an-niu-he-chao-lian-jie.html</link><description>1. 找一个喜欢的svg：[点这里](https://primer.style/foundations/icons#16px)&#13;
 2. 点击copy SVG后你会得到一串代码：&#13;
 ![image](https://github.com/Carlyuanss/Carlyuanss.github.io/assets/169888457/cc9ea5bc-7d32-48ed-83bc-ebac1fe9b0bd)&#13;
 3. 编辑自定义字段：&#13;
