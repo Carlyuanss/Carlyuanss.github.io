@@ -9,31 +9,13 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="1. 找一个喜欢的svg：[点这里](https://primer.style/foundations/icons#16px)
-2. 点击copy SVG后你会得到一串代码：
-![image](https://github.com/Carlyuanss/Carlyuanss.github.io/assets/169888457/cc9ea5bc-7d32-48ed-83bc-ebac1fe9b0bd)
-3. 编辑自定义字段：
-
->  'iconList':{'question':'M6.415.52a2.677 2.677 0 0 1 3.17 0l.928.68c.153.113.33.186.518.215l1.138.175a2.678 2.678 0 0 1 2.241 2.24l.175 1.138c.029.187.102.365.215.518l.68.928a2.677 2.677 0 0 1 0 3.17l-.68.928a1.186 1.186 0 0 0-.215.518l-.175 1.138a2.678 2.678 0 0 1-2.241 2.241l-1.138.175a1.186 1.186 0 0 0-.518.215l-.928.68a2.677 2.677 0 0 1-3.17 0l-.928-.68a1.186 1.186 0 0 0-.518-.215L3.83 14.41a2.678 2.678 0 0 1-2.24-2.24l-.175-1.138a1.186 1.186 0 0 0-.215-.518l-.68-.928a2.677 2.677 0 0 1 0-3.17l.68-.928a1.17 1.17 0 0 0 .215-.518l.175-1.14a2.678 2.678 0 0 1 2.24-2.24l1.138-.175c.187-.029.365-.102.518-.215l.928-.68Zm2.282 1.209a1.18 1.18 0 0 0-1.394 0l-.928.68a2.67 2.67 0 0 1-1.18.489l-1.136.174a1.18 1.18 0 0 0-.987.987l-.174 1.137a2.67 2.67 0 0 1-.489 1.18l-.68.927c-.305.415-.305.98 0 1.394l.68.928c.256.348.423.752.489 1.18l.174 1.136c.078.51.478.909.987.987l1.137.174c.427.066.831.233 1.18.489l.927.68c.415.305.98.305 1.394 0l.928-.68a2.67 2.67 0 0 1 1.18-.489l1.136-.174c.51-.078.909-.478.987-.987l.174-1.137c.066-.427.233-.831.489-1.18l.68-.927c.305-.415.305-.98 0-1.394l-.68-.928a2.67 2.67 0 0 1-.489-1.18l-.174-1.136a1.18 1.18 0 0 0-.987-.987l-1.137-.174a2.67 2.67 0 0 1-1.18-.489ZM6.92 6.085h.001a.75.75 0 0 1-1.342-.67c.169-.339.436-.701.849-.977C6.846 4.16 7.369 4 8 4a2.76 2.76 0 0 1 1.638.525c.502.377.862.965.862 1.725 0 .448-.115.83-.329 1.15-.205.307-.47.513-.692.662-.109.072-.22.138-.313.195l-.006.004a6.24 6.24 0 0 0-.26.16.952.952 0 0 0-.276.245.75.75 0 0 1-1.248-.832c.184-.264.42-.489.692-.661.109-.073.22-.139.313-.195l.007-.004c.1-.061.182-.11.258-.161a.969.969 0 0 0 .277-.245C8.96 6.514 9 6.427 9 6.25a.612.612 0 0 0-.262-.525A1.27 1.27 0 0 0 8 5.5c-.369 0-.595.09-.74.187a1.01 1.01 0 0 0-.34.398ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z'},
-'exlink':{'question':'https://your.link'},
-
-5.修改config.json文件
-。">
-<meta property="og:title" content="给Gmeek博客添加右上角按钮和超链接">
-<meta property="og:description" content="1. 找一个喜欢的svg：[点这里](https://primer.style/foundations/icons#16px)
-2. 点击copy SVG后你会得到一串代码：
-![image](https://github.com/Carlyuanss/Carlyuanss.github.io/assets/169888457/cc9ea5bc-7d32-48ed-83bc-ebac1fe9b0bd)
-3. 编辑自定义字段：
-
->  'iconList':{'question':'M6.415.52a2.677 2.677 0 0 1 3.17 0l.928.68c.153.113.33.186.518.215l1.138.175a2.678 2.678 0 0 1 2.241 2.24l.175 1.138c.029.187.102.365.215.518l.68.928a2.677 2.677 0 0 1 0 3.17l-.68.928a1.186 1.186 0 0 0-.215.518l-.175 1.138a2.678 2.678 0 0 1-2.241 2.241l-1.138.175a1.186 1.186 0 0 0-.518.215l-.928.68a2.677 2.677 0 0 1-3.17 0l-.928-.68a1.186 1.186 0 0 0-.518-.215L3.83 14.41a2.678 2.678 0 0 1-2.24-2.24l-.175-1.138a1.186 1.186 0 0 0-.215-.518l-.68-.928a2.677 2.677 0 0 1 0-3.17l.68-.928a1.17 1.17 0 0 0 .215-.518l.175-1.14a2.678 2.678 0 0 1 2.24-2.24l1.138-.175c.187-.029.365-.102.518-.215l.928-.68Zm2.282 1.209a1.18 1.18 0 0 0-1.394 0l-.928.68a2.67 2.67 0 0 1-1.18.489l-1.136.174a1.18 1.18 0 0 0-.987.987l-.174 1.137a2.67 2.67 0 0 1-.489 1.18l-.68.927c-.305.415-.305.98 0 1.394l.68.928c.256.348.423.752.489 1.18l.174 1.136c.078.51.478.909.987.987l1.137.174c.427.066.831.233 1.18.489l.927.68c.415.305.98.305 1.394 0l.928-.68a2.67 2.67 0 0 1 1.18-.489l1.136-.174c.51-.078.909-.478.987-.987l.174-1.137c.066-.427.233-.831.489-1.18l.68-.927c.305-.415.305-.98 0-1.394l-.68-.928a2.67 2.67 0 0 1-.489-1.18l-.174-1.136a1.18 1.18 0 0 0-.987-.987l-1.137-.174a2.67 2.67 0 0 1-1.18-.489ZM6.92 6.085h.001a.75.75 0 0 1-1.342-.67c.169-.339.436-.701.849-.977C6.846 4.16 7.369 4 8 4a2.76 2.76 0 0 1 1.638.525c.502.377.862.965.862 1.725 0 .448-.115.83-.329 1.15-.205.307-.47.513-.692.662-.109.072-.22.138-.313.195l-.006.004a6.24 6.24 0 0 0-.26.16.952.952 0 0 0-.276.245.75.75 0 0 1-1.248-.832c.184-.264.42-.489.692-.661.109-.073.22-.139.313-.195l.007-.004c.1-.061.182-.11.258-.161a.969.969 0 0 0 .277-.245C8.96 6.514 9 6.427 9 6.25a.612.612 0 0 0-.262-.525A1.27 1.27 0 0 0 8 5.5c-.369 0-.595.09-.74.187a1.01 1.01 0 0 0-.34.398ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z'},
-'exlink':{'question':'https://your.link'},
-
-5.修改config.json文件
-。">
+<meta name="description" content="在VSCode中编写Markdown时，您可以使用正则表达式来批量删除超链接但保留文本。">
+<meta property="og:title" content="vscode使用正则表达式替换删除超链接">
+<meta property="og:description" content="在VSCode中编写Markdown时，您可以使用正则表达式来批量删除超链接但保留文本。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://blog.fattyfatty.cn/post/gei-Gmeek-bo-ke-tian-jia-you-shang-jiao-an-niu-he-chao-lian-jie.html">
+<meta property="og:url" content="http://blog.fattyfatty.cn/post/9.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/169888457">
-<title>给Gmeek博客添加右上角按钮和超链接</title>
+<title>vscode使用正则表达式替换删除超链接</title>
 
 
 </head>
@@ -64,7 +46,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">给Gmeek博客添加右上角按钮和超链接</h1>
+<h1 class="postTitle">vscode使用正则表达式替换删除超链接</h1>
 <div class="title-right">
     <a href="http://blog.fattyfatty.cn" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -72,7 +54,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/Carlyuanss/Carlyuanss.github.io/issues/6" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/Carlyuanss/Carlyuanss.github.io/issues/9" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -88,18 +70,23 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><ol>
-<li>找一个喜欢的svg：<a href="https://primer.style/foundations/icons#16px" rel="nofollow">点这里</a></li>
-<li>点击copy SVG后你会得到一串代码：<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/Carlyuanss/Carlyuanss.github.io/assets/169888457/cc9ea5bc-7d32-48ed-83bc-ebac1fe9b0bd"><img src="https://github.com/Carlyuanss/Carlyuanss.github.io/assets/169888457/cc9ea5bc-7d32-48ed-83bc-ebac1fe9b0bd" alt="image" style="max-width: 100%;"></a></li>
-<li>编辑自定义字段：</li>
-</ol>
-<blockquote>
-<p>"iconList":{"question":"M6.415.52a2.677 2.677 0 0 1 3.17 0l.928.68c.153.113.33.186.518.215l1.138.175a2.678 2.678 0 0 1 2.241 2.24l.175 1.138c.029.187.102.365.215.518l.68.928a2.677 2.677 0 0 1 0 3.17l-.68.928a1.186 1.186 0 0 0-.215.518l-.175 1.138a2.678 2.678 0 0 1-2.241 2.241l-1.138.175a1.186 1.186 0 0 0-.518.215l-.928.68a2.677 2.677 0 0 1-3.17 0l-.928-.68a1.186 1.186 0 0 0-.518-.215L3.83 14.41a2.678 2.678 0 0 1-2.24-2.24l-.175-1.138a1.186 1.186 0 0 0-.215-.518l-.68-.928a2.677 2.677 0 0 1 0-3.17l.68-.928a1.17 1.17 0 0 0 .215-.518l.175-1.14a2.678 2.678 0 0 1 2.24-2.24l1.138-.175c.187-.029.365-.102.518-.215l.928-.68Zm2.282 1.209a1.18 1.18 0 0 0-1.394 0l-.928.68a2.67 2.67 0 0 1-1.18.489l-1.136.174a1.18 1.18 0 0 0-.987.987l-.174 1.137a2.67 2.67 0 0 1-.489 1.18l-.68.927c-.305.415-.305.98 0 1.394l.68.928c.256.348.423.752.489 1.18l.174 1.136c.078.51.478.909.987.987l1.137.174c.427.066.831.233 1.18.489l.927.68c.415.305.98.305 1.394 0l.928-.68a2.67 2.67 0 0 1 1.18-.489l1.136-.174c.51-.078.909-.478.987-.987l.174-1.137c.066-.427.233-.831.489-1.18l.68-.927c.305-.415.305-.98 0-1.394l-.68-.928a2.67 2.67 0 0 1-.489-1.18l-.174-1.136a1.18 1.18 0 0 0-.987-.987l-1.137-.174a2.67 2.67 0 0 1-1.18-.489ZM6.92 6.085h.001a.75.75 0 0 1-1.342-.67c.169-.339.436-.701.849-.977C6.846 4.16 7.369 4 8 4a2.76 2.76 0 0 1 1.638.525c.502.377.862.965.862 1.725 0 .448-.115.83-.329 1.15-.205.307-.47.513-.692.662-.109.072-.22.138-.313.195l-.006.004a6.24 6.24 0 0 0-.26.16.952.952 0 0 0-.276.245.75.75 0 0 1-1.248-.832c.184-.264.42-.489.692-.661.109-.073.22-.139.313-.195l.007-.004c.1-.061.182-.11.258-.161a.969.969 0 0 0 .277-.245C8.96 6.514 9 6.427 9 6.25a.612.612 0 0 0-.262-.525A1.27 1.27 0 0 0 8 5.5c-.369 0-.595.09-.74.187a1.01 1.01 0 0 0-.34.398ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"},<br>
-"exlink":{"question":"<a href="https://your.link%22%7D" rel="nofollow">https://your.link"}</a>,</p>
-</blockquote>
-<p>5.修改config.json文件</p></div>
-<div style="font-size:small;margin-top:8px;float:right;"><span id='busuanzi_container_site_pv'>❀感谢大家看了<span id='busuanzi_value_site_pv'></span>次❀</span></div>
+<div class="markdown-body" id="postBody"><p>在VSCode中编写Markdown时，您可以使用正则表达式来批量删除超链接但保留文本。以下是一个简单的步骤，可以帮助您完成这个任务：</p>
+<p>打开VSCode中的搜索替换功能（使用快捷键Ctrl + H）。<br>
+在“查找”框中输入以下正则表达式：[([^\]]+)]([^)]+)</p>
+<h2>删除文本超链接保留文本</h2>
+<p>[([^\[\]]+)](([^\(\)]+))<br>
+这个正则表达式可以找到<code class="notranslate">[显示文本](链接地址)</code><br>
+替换成$1就ok了</p>
+<h2>删除图片超链接</h2>
+<p>[![(.<em>?)]((.</em>?))]((.*?))<br>
+这个正则表达式会匹配 <code class="notranslate">[![标题](https://hello.html)](/helloworld.html)</code> 中的 <code class="notranslate">https://hello.html</code> 和 <code class="notranslate">/helloworld.html</code>。<br>
+替换成<code class="notranslate">![]($2)</code>这个之后就可以删除图片的超链接</p>
+<p>在“替换”框中输入：$1<br>
+确保选中“使用正则表达式”的选项（这通常是一个.*的图标）。<br>
+点击“全部替换”。<br>
+这样，所有的格式为链接文本的Markdown超链接都会被替换为仅包含链接文本的格式。例如，“乔治敦”会被替换为“乔治敦”。</p>
+<p>请注意，执行此操作前建议您备份文档，以防万一替换出现不预期的结果。希望这能帮助到您！</p></div>
+<div style="font-size:small;margin-top:8px;float:right;"><span id='busuanzi_container_site_uv'>❀您是第<span id='busuanzi_value_site_uv'></span>位来到这里的朋友❀</span></div>
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
 </div>

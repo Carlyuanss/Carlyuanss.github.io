@@ -9,13 +9,35 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="在VSCode中编写Markdown时，您可以使用正则表达式来批量删除超链接但保留文本。">
-<meta property="og:title" content="vscode使用正则表达式替换删除超链接">
-<meta property="og:description" content="在VSCode中编写Markdown时，您可以使用正则表达式来批量删除超链接但保留文本。">
+<meta name="description" content="最近迷上了Gmeek的博客，试着自己搭建了一个，后来想插入一些js鼠标特效；  
+例如星星跟随鼠标的特效，就出现了星星偏移的情况；  
+后来让bing修改了一下，添加了注释，形成了现在的[代码](https://github.com/Carlyuanss/js_for_Blog)；  
+后续也许会对别的特效感兴趣~  
+  
+## 使用方法：
+参考Gmeek的[快速上手指南](https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html)  
+
+## 感谢：
+*我也不知道这个星星js的原作者是谁，先感谢他~  
+感谢Gmeek的作者：[Meekdai](https://github.com/Meekdai/Gmeek)  
+。">
+<meta property="og:title" content="让bing写了适配Gmeek的星星特效js">
+<meta property="og:description" content="最近迷上了Gmeek的博客，试着自己搭建了一个，后来想插入一些js鼠标特效；  
+例如星星跟随鼠标的特效，就出现了星星偏移的情况；  
+后来让bing修改了一下，添加了注释，形成了现在的[代码](https://github.com/Carlyuanss/js_for_Blog)；  
+后续也许会对别的特效感兴趣~  
+  
+## 使用方法：
+参考Gmeek的[快速上手指南](https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html)  
+
+## 感谢：
+*我也不知道这个星星js的原作者是谁，先感谢他~  
+感谢Gmeek的作者：[Meekdai](https://github.com/Meekdai/Gmeek)  
+。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://blog.fattyfatty.cn/post/vscode-shi-yong-zheng-ze-biao-da-shi-ti-huan-shan-chu-chao-lian-jie.html">
+<meta property="og:url" content="http://blog.fattyfatty.cn/post/25.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/169888457">
-<title>vscode使用正则表达式替换删除超链接</title>
+<title>让bing写了适配Gmeek的星星特效js</title>
 
 
 </head>
@@ -46,7 +68,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">vscode使用正则表达式替换删除超链接</h1>
+<h1 class="postTitle">让bing写了适配Gmeek的星星特效js</h1>
 <div class="title-right">
     <a href="http://blog.fattyfatty.cn" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -54,7 +76,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/Carlyuanss/Carlyuanss.github.io/issues/9" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/Carlyuanss/Carlyuanss.github.io/issues/25" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -70,23 +92,16 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>在VSCode中编写Markdown时，您可以使用正则表达式来批量删除超链接但保留文本。以下是一个简单的步骤，可以帮助您完成这个任务：</p>
-<p>打开VSCode中的搜索替换功能（使用快捷键Ctrl + H）。<br>
-在“查找”框中输入以下正则表达式：[([^\]]+)]([^)]+)</p>
-<h2>删除文本超链接保留文本</h2>
-<p>[([^\[\]]+)](([^\(\)]+))<br>
-这个正则表达式可以找到<code class="notranslate">[显示文本](链接地址)</code><br>
-替换成$1就ok了</p>
-<h2>删除图片超链接</h2>
-<p>[![(.<em>?)]((.</em>?))]((.*?))<br>
-这个正则表达式会匹配 <code class="notranslate">[![标题](https://hello.html)](/helloworld.html)</code> 中的 <code class="notranslate">https://hello.html</code> 和 <code class="notranslate">/helloworld.html</code>。<br>
-替换成<code class="notranslate">![]($2)</code>这个之后就可以删除图片的超链接</p>
-<p>在“替换”框中输入：$1<br>
-确保选中“使用正则表达式”的选项（这通常是一个.*的图标）。<br>
-点击“全部替换”。<br>
-这样，所有的格式为链接文本的Markdown超链接都会被替换为仅包含链接文本的格式。例如，“乔治敦”会被替换为“乔治敦”。</p>
-<p>请注意，执行此操作前建议您备份文档，以防万一替换出现不预期的结果。希望这能帮助到您！</p></div>
-<div style="font-size:small;margin-top:8px;float:right;"><span id='busuanzi_container_site_pv'>❀感谢大家看了<span id='busuanzi_value_site_pv'></span>次❀</span></div>
+<div class="markdown-body" id="postBody"><p>最近迷上了Gmeek的博客，试着自己搭建了一个，后来想插入一些js鼠标特效；<br>
+例如星星跟随鼠标的特效，就出现了星星偏移的情况；<br>
+后来让bing修改了一下，添加了注释，形成了现在的<a href="https://github.com/Carlyuanss/js_for_Blog">代码</a>；<br>
+后续也许会对别的特效感兴趣~</p>
+<h2>使用方法：</h2>
+<p>参考Gmeek的<a href="https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html" rel="nofollow">快速上手指南</a></p>
+<h2>感谢：</h2>
+<p>*我也不知道这个星星js的原作者是谁，先感谢他~<br>
+感谢Gmeek的作者：<a href="https://github.com/Meekdai/Gmeek">Meekdai</a></p></div>
+<div style="font-size:small;margin-top:8px;float:right;"><span id='busuanzi_container_site_uv'>❀您是第<span id='busuanzi_value_site_uv'></span>位来到这里的朋友❀</span></div>
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
 </div>
