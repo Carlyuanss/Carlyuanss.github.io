@@ -6,7 +6,7 @@
     "urlMode":"issue",
     "startSite":"05/17/2024",
     "filingNum":"粤ICP备2023136473号",
-    "style":"<style>img{loading:lazy;}</style>",
+    "style":"<style>#img{loading:lazy;}</style>",
     "script":"<script async src='//blog.fattyfatty.cn/js_for_Blog/js/stars.js'></script><script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>",
     "indexScript":"<script async src='//blog.fattyfatty.cn/js_for_Blog/js/stars.js'></script><script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>",
     "bottomText":"<span id='busuanzi_container_page_pv'>❀您是第<span id='busuanzi_value_page_pv'></span>位来到这里的朋友❀</span>",
