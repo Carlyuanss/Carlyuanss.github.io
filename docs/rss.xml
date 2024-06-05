@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小肥记事本</title><link>http://blog.fattyfatty.cn</link><description>※专门写一些有的没的~※</description><copyright>小肥记事本</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/169888457</url><title>avatar</title><link>http://blog.fattyfatty.cn</link></image><lastBuildDate>Wed, 05 Jun 2024 06:39:01 +0000</lastBuildDate><managingEditor>小肥记事本</managingEditor><ttl>60</ttl><webMaster>小肥记事本</webMaster><item><title>图片懒加载测试</title><link>http://blog.fattyfatty.cn/post/27.html</link><description>### 理论上下面这些图片都使用了`loading='lazy'`标签&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小肥记事本</title><link>http://blog.fattyfatty.cn</link><description>※专门写一些有的没的~※</description><copyright>小肥记事本</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/169888457</url><title>avatar</title><link>http://blog.fattyfatty.cn</link></image><lastBuildDate>Wed, 05 Jun 2024 07:30:25 +0000</lastBuildDate><managingEditor>小肥记事本</managingEditor><ttl>60</ttl><webMaster>小肥记事本</webMaster><item><title>图片懒加载测试</title><link>http://blog.fattyfatty.cn/post/27.html</link><description>### 理论上下面这些图片都使用了`loading='lazy'`标签&#13;
 &#13;
 #### 没有在&lt;img&gt;里添加，靠js添加&#13;
 `Gmeek-html&lt;img src='https://p1-q.mafengwo.net/s11/M00/00/36/wKgBEFpxW4-AG0CHABbZaITYoJw47.jpeg?imageView2%2F2%2Fw%2F1280%2Fq%2F50%7CimageMogr2%2Fstrip%2Fquality%2F50' alt='天子山'&gt;`&#13;
@@ -95,13 +95,6 @@
 &#13;
 每一次旅行，我都在与未知并行，听一座陌生城市说话。</description><guid isPermaLink="true">http://blog.fattyfatty.cn/post/20.html</guid><pubDate>Tue, 25 Jul 2017 13:14:00 +0000</pubDate></item><item><title>杭州&amp;绍兴 | 如画江南，停留在最初的时光里</title><link>http://blog.fattyfatty.cn/post/22.html</link><description>## 写在最前&#13;
 &#13;
-2017.02.06-02.12浙江之行，走过杭州、乌镇、绍兴。</description><guid isPermaLink="true">http://blog.fattyfatty.cn/post/22.html</guid><pubDate>Tue, 28 Feb 2017 10:16:00 +0000</pubDate></item><item><title>台湾 | 从此我的心里有一片蓝（下）</title><link>http://blog.fattyfatty.cn/post/24.html</link><description>## DAY 6&#13;
-&#13;
-\-Day Six-  &#13;
-【驳二艺术特区•走近艺术气息】  &#13;
-&#13;
-`Gmeek-html&lt;img src='data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==' alt='' loading='lazy'&gt;`&#13;
-&#13;
-这一天起得比较晚，大概是9点多才出门。</description><guid isPermaLink="true">http://blog.fattyfatty.cn/post/24.html</guid><pubDate>Wed, 07 Dec 2016 09:26:00 +0000</pubDate></item><item><title>台湾 | 从此我的心里有一片蓝</title><link>http://blog.fattyfatty.cn/post/23.html</link><description>## 写在最前&#13;
+2017.02.06-02.12浙江之行，走过杭州、乌镇、绍兴。</description><guid isPermaLink="true">http://blog.fattyfatty.cn/post/22.html</guid><pubDate>Tue, 28 Feb 2017 10:16:00 +0000</pubDate></item><item><title>台湾 | 从此我的心里有一片蓝</title><link>http://blog.fattyfatty.cn/post/23.html</link><description>## 写在最前&#13;
 &#13;
 台湾，那是一个曾经只在幻想里的地方。</description><guid isPermaLink="true">http://blog.fattyfatty.cn/post/23.html</guid><pubDate>Wed, 07 Dec 2016 09:25:00 +0000</pubDate></item></channel></rss>
