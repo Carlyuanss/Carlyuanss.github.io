@@ -80,7 +80,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h2>删除图片超链接</h2>
 <p><code class="notranslate">\[!\[(.*?)\]\((.*?)\)\]\((.*?)\)</code><br>
 这个正则表达式会匹配 <code class="notranslate">[![标题](https://hello.html)](/helloworld.html)</code> 中的 <code class="notranslate">https://hello.html</code> 和 <code class="notranslate">/helloworld.html</code>。<br>
-替换成<code class="notranslate">![]($2)</code>这个之后就可以删除图片的超链接</p>
+替换成<code class="notranslate">![]($2)</code>这个之后就可以删除图片的超链接<br>
+或者替换成<code class="notranslate">Gmxxk-html&lt;img src="$2" alt="$1" loading="lazy"&gt;</code>将xx改为ee，就可以适配Gmeek最新的img标签。</p>
 <p>在“替换”框中输入：$1<br>
 确保选中“使用正则表达式”的选项（这通常是一个.*的图标）。<br>
 点击“全部替换”。<br>

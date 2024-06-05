@@ -12,6 +12,7 @@
 `\[!\[(.*?)\]\((.*?)\)\]\((.*?)\)`
 这个正则表达式会匹配 `[![标题](https://hello.html)](/helloworld.html)` 中的 `https://hello.html` 和 `/helloworld.html`。
 替换成`![]($2)`这个之后就可以删除图片的超链接
+或者替换成`Gmxxk-html<img src="$2" alt="$1" loading="lazy">`将xx改为ee，就可以适配Gmeek最新的img标签。
 
 在“替换”框中输入：$1
 确保选中“使用正则表达式”的选项（这通常是一个.*的图标）。
