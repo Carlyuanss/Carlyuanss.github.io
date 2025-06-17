@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小肥记事本</title><link>http://blog.fattyfatty.cn</link><description>※专门写一些有的没的~※</description><copyright>小肥记事本</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/169888457</url><title>avatar</title><link>http://blog.fattyfatty.cn</link></image><lastBuildDate>Tue, 17 Jun 2025 06:57:11 +0000</lastBuildDate><managingEditor>小肥记事本</managingEditor><ttl>60</ttl><webMaster>小肥记事本</webMaster><item><title>好久没有写博客了，记录一下被Cloudfront反薅的一天</title><link>http://blog.fattyfatty.cn/post/29.html</link><description>#事件起因
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>小肥记事本</title><link>http://blog.fattyfatty.cn</link><description>※专门写一些有的没的~※</description><copyright>小肥记事本</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/169888457</url><title>avatar</title><link>http://blog.fattyfatty.cn</link></image><lastBuildDate>Tue, 17 Jun 2025 07:04:22 +0000</lastBuildDate><managingEditor>小肥记事本</managingEditor><ttl>60</ttl><webMaster>小肥记事本</webMaster><item><title>好久没有写博客了，记录一下被Cloudfront反薅的一天</title><link>http://blog.fattyfatty.cn/post/29.html</link><description>## 事件起因
 闲来无事登陆一下hotmail的邮箱，发现了好几封来着亚马逊云的催债邮件；
 点进去一看发现是一份来自上个月的账号，需要付费USD$0.13；
 ![Image](https://github.com/user-attachments/assets/461b1776-8ca8-45de-93de-c451d3e49ccb)
 
-#查询了详细账单
+## 查询了详细账单
 以这个新加坡地区为例，产生了6美分的费用；
 再查到具体的项目是“All data transfer out to Origin (Asia)”；
 顾名思义就是我们从客户端把数据经过CDN传送到数据源（服务器）的一个流量费用。</description><guid isPermaLink="true">http://blog.fattyfatty.cn/post/29.html</guid><pubDate>Tue, 17 Jun 2025 06:45:58 +0000</pubDate></item><item><title>汕尾 | 小城之间：半是海上风，半是烟火气</title><link>http://blog.fattyfatty.cn/post/28.html</link><description>## 「这，是个宝藏城市」&#13;
